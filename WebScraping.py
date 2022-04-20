@@ -23,7 +23,6 @@ for page in pages:
         for item in tile:
             d={}
             try:
-                
                 heading=item.find("strong",{"class":"ereality-property-heading"}).text.split(",")[0:1]
             except:
                 None
